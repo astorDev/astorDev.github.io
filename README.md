@@ -1,2 +1,6 @@
 # astorDev.github.io
-The blog
+
+```csharp
+var x = 3;
+Console.WriteLine(x);
+```
