@@ -1,11 +1,9 @@
-# astorDev.github.io
+# Example Page Two
 
 This is a sample text
 
 - This is bullet points
     - With nesting
-
-[page two](/two.md)
 
 ```csharp
 var x = 3;
