@@ -2,7 +2,6 @@
 layout: home
 
 hero:
-  # name: "Welcome to my blog!"
   text: "Articles about .NET and more..."
 ---
 
