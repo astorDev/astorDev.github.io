@@ -1,4 +1,4 @@
-import { createContentLoader, defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress'
 import { default as articlesLoader } from '../articles.data'
 
 var sidebar = await articlesLoader.load().then(loaded => loaded.map((item) => {
