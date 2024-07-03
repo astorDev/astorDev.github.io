@@ -1,24 +1,21 @@
-import { defineConfig } from 'vitepress'
+import { createContentLoader, defineConfig } from 'vitepress'
+import { default as articlesLoader } from '../articles.data'
 
-// https://vitepress.dev/reference/site-config
+var sidebar = await articlesLoader.load().then(loaded => loaded.map((item) => {
+  return {
+    text: item.frontmatter.title,
+    link: item.url,
+  }
+}));
+
 export default defineConfig({
-  title: "Egor Tarasov",
+  title: "Egor Tarasov's Blog",
   description: "Personal Site",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
     ],
-
-    sidebar: [
-      {
-        text: 'Latest',
-        items: [
-          { text: 'Best Postman Alternative', link: '/articles/best-postman-alternative' }
-        ]
-      }
-    ],
-
+    sidebar: sidebar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/astorDev' }
     ]
