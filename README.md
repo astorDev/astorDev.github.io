@@ -6,7 +6,7 @@ This is a sample text
     - With nesting
 
 [page two](/two.md)
-[Best Postman Alternative](/best-postman-alternative/.md)
+[Best Postman Alternative](/best-postman-alternative/article.md)
 
 ```csharp
 var x = 3;
