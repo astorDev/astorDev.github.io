@@ -9,7 +9,7 @@ No, it's not Insomnia. In fact, this instrument is not even an app, it's just a 
 
 > I feel the tool gives the most for coders. If you just starting your IT journey the tool may be an overkill. But feel free to come back once you are tired of standard, inefficient apps.
 
-![Don't disappoint the AI-generated Yak](yac-intro-thumb.png)
+![Don't disappoint the AI-generated Yak](thumb.png)
 
 ## Getting Started
 

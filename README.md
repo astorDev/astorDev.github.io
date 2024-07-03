@@ -1,14 +1,5 @@
-# astorDev.github.io
+# Personal Site
 
-This is a sample text
+## Articles
 
-- This is bullet points
-    - With nesting
-
-[page two](/two.md)
-[Best Postman Alternative](/best-postman-alternative/article.md)
-
-```csharp
-var x = 3;
-Console.WriteLine(x);
-```
+[Best Postman Alternative](/articles/best-postman-alternative/)
