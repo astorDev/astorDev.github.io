@@ -2,20 +2,20 @@
 layout: home
 
 hero:
-  name: "Egor Tarasov"
-  text: "Personal Site"
-  actions:
-    - theme: brand
-      text: Read Latest Article
-      link: /articles/best-postman-alternative
-    - theme: alt
-      text: API Examples
-      link: /markdown-examples
-
-features:
-  - title: Blog
-    details: This is my blog
-  - title: CV
-    details: There will also be my CV
+  text: "Articles about .NET and more..."
 ---
 
+<script setup>
+import { data as articles } from './articles.data.js'
+</script>
+
+<span v-for="article of articles">
+  <a :href="article.url">
+    <h2>
+      {{ article.frontmatter.title }}
+    </h2>
+  </a>
+  <p>
+    {{ article.formattedDate }}
+  </p>
+</span>
