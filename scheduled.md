@@ -2,24 +2,23 @@
 layout: home
 
 hero:
-  text: "Articles about .NET and more..."
+    name: "Pss.."
+    text: "This is our secret plans"
 ---
 
 <script setup>
-import { data as articleMonthes } from './articles.data.js'
+import { data as articleMonthes } from './scheduled.data.js'
 </script>
 
 <span v-for="(articles, month) in articleMonthes">
   <h2>{{ month }}</h2>
   <span v-for="article in articles">
-    <span v-if="article.published">
       <a :href="article.url" >
         <h3>
           {{ article.frontmatter.title }}
         </h3>
       </a>
       <small>{{ article.formattedDate }}</small>
-    </span>
   </span>
   <br/>
   <br/>
