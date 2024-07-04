@@ -7,9 +7,6 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon-vitepress.png' }]
   ],
   themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-    ],
     search: {
       provider: 'local',
       options: {
