@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-    name: "Pss.."
-    text: "This is our secret plans"
+    name: "pssst..."
+    text: "this is our secret plans"
 ---
 
 <script setup>
