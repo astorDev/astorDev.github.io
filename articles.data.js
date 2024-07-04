@@ -20,6 +20,8 @@ export default createContentLoader(
 );
 
 function formatDate(date) {
+    if (!date) return '';
+
     const getMonthName = (date) => new Intl.DateTimeFormat('en-US', { month: 'long' }).format(date);
 
     const day = String(date.getDate()).padStart(2, '0');
