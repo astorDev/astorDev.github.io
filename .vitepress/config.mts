@@ -17,7 +17,8 @@ export default defineConfig({
       }
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/astorDev' }
+      { icon: 'github', link: 'https://github.com/astorDev' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/astordev/' }
     ]
   }
 })
