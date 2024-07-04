@@ -40,7 +40,7 @@ services:
       - 5601:5601
 ```
 
-So now after running `docker compose up -d`, waiting for about half a minute, and opening [http://localhost:5601/](http://localhost:5601/) we should see Kibana welcome screen
+So now after running `docker compose up -d`, waiting for about half a minute, and opening http://localhost:5601/ we should see Kibana welcome screen
 
 ![firing up elastic](firing-up-elastic.gif)
 
