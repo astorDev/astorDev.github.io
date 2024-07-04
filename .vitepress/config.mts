@@ -16,6 +16,12 @@ export default defineConfig({
       { text: 'Home', link: '/' },
     ],
     //sidebar: sidebar,
+    search: {
+      provider: 'local',
+      options: {
+        detailedView: 'auto'
+      }
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/astorDev' }
     ]
