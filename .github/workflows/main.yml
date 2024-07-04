@@ -15,7 +15,10 @@ jobs:
         run: |
           npm install -D vitepress
           npx vitepress build
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
         with:
-          folder: .vitepress/dist
+          path: .vitepress/dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
