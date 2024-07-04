@@ -16,7 +16,7 @@ jobs:
           npm install -D vitepress
           npx vitepress build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: .vitepress/dist
       - name: Deploy to GitHub Pages
