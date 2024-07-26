@@ -2,7 +2,7 @@
 type: article
 status: complete
 title: Customizing CupertinoDatePicker in Flutter
-date: 2024-07-25
+date: 2024-07-26
 ---
 
 # Customizing CupertinoDatePicker in Flutter
