@@ -1,3 +1,8 @@
+---
+title: How I Started My 3-Year Software Development Side Hustle
+date: 2024-08-25
+---
+
 # How I Started My 3-Year Software Development Side Hustle
 
 ![](thumb.png)
