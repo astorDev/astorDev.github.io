@@ -1,5 +1,6 @@
 ---
-title: How C# Dictionary Actually Work
+title: >
+    How C# Dictionary Actually Work
 date: 2024-09-16
 ---
 
