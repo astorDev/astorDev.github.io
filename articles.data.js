@@ -44,13 +44,19 @@ export function createArticlesLoader(predicate) {
             transform(rawData) {
                 return rawData
                     .map(
-                        (post) => ({
-                            url: post.url,
-                            frontmatter: post.frontmatter,
-                            title: post.frontmatter.title,
-                            formattedDate: formatDate(post.frontmatter.date),
-                            published: post.frontmatter.date < new Date(),
-                        })
+                        (post) => {
+                            if (!post.frontmatter.date) {
+                                throw new Error(`Missing date in ${post.url}`);
+                            }
+
+                            return {
+                                url: post.url,
+                                frontmatter: post.frontmatter,
+                                title: post.frontmatter.title,
+                                formattedDate: formatDate(post.frontmatter.date),
+                                published: post.frontmatter.date < new Date(),
+                            };
+                        }
                     )
                     .filter(
                         predicate
