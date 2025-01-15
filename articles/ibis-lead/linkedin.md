@@ -11,4 +11,4 @@ I'm excited to see what my team and I will build this year! Our B2B product aims
 
 Meanwhile, here is just a photo of me looking into the bright future! 😊
 
-![](thumb.JPG)
+![](thumb.jpg)
