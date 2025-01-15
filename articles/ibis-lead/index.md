@@ -11,4 +11,5 @@ I'm excited to see what my team and I will build this year! Our B2B product aims
 
 Meanwhile, here is just a photo of me looking into the bright future! 😊
 
-![](thumb.jpg)
+<!-- Here was the thumb, but for some reason it fails with vitepress build in GitHub CI (despite working locally) -->
+<!-- ![](thumb.jpg) -->
