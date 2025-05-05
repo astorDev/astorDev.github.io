@@ -1,6 +1,6 @@
 ---
 title: How to Implement a .NET Background Service for Continuous Work in 2025
-date: 2025-03-31
+date: 2025-04-28
 ---
 
 # How to Implement a .NET Background Service for Continuous Work in 2025
