@@ -1,5 +1,5 @@
 ---
-date: 2025-04-31
+date: 2025-04-28
 title: Proxy HTTP Requests in .NET 9 Like a Pro
 ---
 
