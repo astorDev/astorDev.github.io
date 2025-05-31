@@ -1,6 +1,6 @@
 ---
 title: Custom Git Command I Use All The Time!
-date: 2025-09-06
+date: 2025-05-26
 ---
 
 # Custom Git Command I Use All The Time!

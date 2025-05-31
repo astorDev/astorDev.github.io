@@ -1,7 +1,7 @@
 ---
 title: >
   REST API Solution to Over-Fetching: .NET 9 Example
-date: 2024-06-02
+date: 2025-06-02
 ---
 
 # REST API Solution to Over-Fetching: .NET 9 Example
